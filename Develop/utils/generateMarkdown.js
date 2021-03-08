@@ -1,4 +1,3 @@
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(userInput) {
   return `# ${userInput.title}
   ![badge](https://img.shields.io/badge/license-${userInput.license}-blue)
