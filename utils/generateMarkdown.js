@@ -1,3 +1,4 @@
+// This function is generating markdown based off of the user input 
 function generateMarkdown(userInput) {
   return `# ${userInput.title}
   ![badge](https://img.shields.io/badge/license-${userInput.license}-blue)
@@ -33,7 +34,7 @@ function generateMarkdown(userInput) {
   ## Questions
   ${userInput.questions}
   You can find me on GitHub at [${userInput.github}](https://github.com/${userInput.github})
-  Email me if you run into any questions at ${userInput.email}
+  Email me if you have any questions at ${userInput.email}
 `;
 }
 
