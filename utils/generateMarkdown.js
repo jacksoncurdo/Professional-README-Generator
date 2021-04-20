@@ -1,6 +1,6 @@
 // This function is generating markdown based off of the user input 
 function generateMarkdown(userInput) {
-  return `# ${userInput.title}
+  return `# ${userInput.projectTitle}
   ![badge](https://img.shields.io/badge/license-${userInput.license}-blue)
 
   ## Table of contents
@@ -22,7 +22,7 @@ function generateMarkdown(userInput) {
   ${userInput.usage}
 
   ## License
-  ![badge](https://img.shields.io/badge/license-${userInput.license}-blue)
+  ![badge](https://img.shields.io/badge/license-${userInput.license}-blue
   The license covering this application is the ${userInput.license} license.
 
   ## Contributors
